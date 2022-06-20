@@ -1,0 +1,25 @@
+﻿Team Name: Fantastic 5
+Github Repo: https://github.com/CSE370HCI/fantastic
+Zenhub Board: https://app.zenhub.com/workspaces/cse370---fantastic-5-62057f139bb71a00196f6ca7/board?labels=user%20story
+
+
+Alternate dispute resolution approach:
+
+
+1. All Teammates will show up to meetings on time. If for any reason they cannot attend in person they will read the meeting notes and ask questions if needed.
+2. All Teammates will respond to messages directly @ing them through discord or email within 24 hours.
+3. Assigned tasks will be satisfactorily done by the time they are due.
+4. If for any reason a team member does not think they can complete their task in the assigned time they must notify the PM and group at least 4 days before the next meeting.
+5. In the case of conflicting opinions between group members, a picker wheel will be used to reach a resolution. 
+
+
+Project description:
+
+
+Our completed project will be a social media site that connects those with an interest in food and allows them to share such an interest with others without scrolling through unrelated content. One way to accomplish this is by standardizing user posts and making all filters food-related. Users will be able to post recipes or other food related content if they wish as well as comment on posts by others. They will also be able to post on the recipe posts themselves, modifications or variants of the recipe for others who prefer alternatives to the way the food is made or replacing certain ingredients in the recipe. This will be the hub for people of all experience levels to go to where it consolidates all food content into one place without having to roam to multiple websites on the internet. 
+
+
+User description and usage:
+
+
+A typical user of the project would be one that may cook often or wants to cook once in a while and uses this website to guide them in their journey to find what to cook. How they would use the website is to create an account and input their experience level of cooking for others to view. If the user would like to share his or her creations, they would create a post showcasing its recipe and pictures and determine the visibility of the post. They can decide if they want to share the post publicly for all users, even those who do not follow him to see, or if they want to restrict the post’s visibility to just his circle of followers. While scrolling through their home feed that has a similar feel to other social media platforms, the user may come upon a post that they wish to modify or replace some ingredients around for other users that may be vegan or allergic to certain ingredients. Once deciding on what their modified version will be, they can directly post it within the same original post they were inspired from for others to find. If other users just want to look at the modifications of a recipe, they can simply just filter the comments to just modifications. Cooks all around the world with different experience levels can join in on one hub to bond and inspire one another in the food world without having to get lost in the vast space of the internet.
