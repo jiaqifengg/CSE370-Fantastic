@@ -1,0 +1,143 @@
+#messageParentWrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 93.5vh;
+}
+
+#messageUserOptionsWrapper {
+    display: flex;
+}
+
+#newMessageIcon {
+    height: 30px;
+    cursor: pointer;
+    margin: auto;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 20%;
+}
+
+#messageUserWrapper {
+    height: 80vh;
+    width: 20vw;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#messageUserListWrapper {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y: scroll;
+    height: 75vh;
+}
+
+#messageUserWrapper input {
+    width: 80%;
+}
+
+#filterNewUserInput {
+    width: 60%;
+}
+
+#messageChatWrapper {
+    height: 80vh;
+    width: 60vw;
+    margin-right: auto;
+    border: 1px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#messageChatScroller {
+    height: 65vh;
+    width: 100%;
+    margin-right: auto;
+    overflow-y: scroll;   
+    overflow-x: hidden;
+}
+
+#messageChatScroller:first-child div {
+    margin-top: 5px;
+}
+
+#messageUserMapper {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0.1px 0.5px 0.1px black;
+    cursor: pointer;
+}
+
+#messageUserMapper:hover h1{
+    color: var(--gold)
+}
+
+#userWrapper {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#messageUserMapper h1 {
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#outgoingMessages {
+    border: 1px solid var(--gold);
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+#incomingMessages {
+    border: 1px solid var(--lightblue);
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.messageBubble {
+    max-width: 45%;
+    border-radius: 3vh;
+    padding: 10px;
+}
+
+.messageBubble h2{
+    max-width: 90%;
+    min-width: 30%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.messageBubble h3{
+    max-width: 90%;
+    min-width: 30%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 15px;
+    text-align: left;
+}
+
+#outgoingMessageDiv {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+input {
+    height: 35px;
+    width: 60%;
+}
+
+button {
+    height: 40px;
+}

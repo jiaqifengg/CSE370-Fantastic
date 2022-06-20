@@ -1,0 +1,641 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 650px) {
+
+    .fontset{
+        border: 5px;
+        padding: 12px;
+        margin: auto;
+        display: inline-block;
+        padding: 20px;
+        font-family: "Montserrat";
+    }
+    .fontset_about_me{
+        vertical-align: middle;
+        border: 5px;
+        padding: 12px;
+        display:inline-flex;
+        font-family: "Montserrat";
+    }
+    textarea{
+        outline-offset: 5px;
+        height : 100px;
+        width: 350px;
+        vertical-align: middle;
+    }
+
+    .rectangleone {
+        border-top-left-radius: 2vh;
+        border-top-right-radius: 2vh;
+        font-family: "Montserrat";
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        background: #111C39;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    .rectangletwo {
+        font-family: "Montserrat";
+        height: 45px;
+        background: #87AEAB;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .rectanglethree {
+        height: 45px;
+        background: #87AEAB;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .rectanglefour {
+        font-family: "Montserrat";
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        background: #111C39;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+
+        /* Profile picture */
+    .image_adjust {
+        border-radius: 50%;
+        padding-top: 50px;
+        width:100%;
+        max-width:250px;
+        max-height: 250px;
+        min-width: 250px;
+        max-height: 250px;
+    }
+    .image_adjusttwo {
+        font-family: "Montserrat";
+        transform: scale(0.8);
+        padding: 0; 
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        right: 50%;
+        top: 970px;
+        bottom: 30%; 
+        z-index: 1;      
+    }
+
+    
+    .username_enter {
+        border-radius: 25px;
+        font-family: "Montserrat";
+        display: inline-block;
+        padding: 0; 
+        margin: 20px;
+        height: 80px;
+        width: 300px;
+        top: 50%;
+        text-align: center;
+        color: black
+    }
+    .aboutme_enter {
+        padding: 15px;
+        border-radius: 25px;
+        font-family: "Montserrat";
+        text-align: left;
+        color: black;
+    }
+    .phone_enter {
+        border-radius: 25px;
+
+        font-family: "Montserrat";
+        display: inline-block;
+        padding: 0; 
+        margin: 20px;
+        margin-right: 50px;
+        height: 80px;
+        width: 175px;
+        top: 50%;
+        text-align: center;
+        color: black
+    }
+    #Encompassing_Settings{
+        width: 60vw;
+        float: center;
+        margin: auto;
+        min-height: 100vh; 
+        justify-content: flex-start;
+        border-left: 0.1px solid var(--gold);
+        border-right: 0.1px solid var(--gold);
+        border-top-left-radius: 2vh;
+        border-top-right-radius: 2vh;
+    }
+    #Encompass-Username{
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+    }
+    #Encompass-Date{
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+
+        padding-bottom: 25px;
+        padding-right: 45px;
+    }
+    #Encompass-Phone{
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+        padding-bottom: 25px;
+        padding-left: 20px;
+    }
+    #Encompass-AboutMe{
+        
+        position: relative;
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+        padding-bottom: 25px;
+        padding-right: 20px;
+
+    }
+    .label textarea{
+        outline-offset: 5px;
+        vertical-align: middle;
+        float: left;
+    }
+    .viewFollow-content {
+        background-color: var(--offwhite);
+        border-radius: 25px;
+        margin: 5% auto; /* 15% from the top and centered */
+        padding: 1px 10px 20px 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        height: 85%;
+    }
+    .blocked_Banner{
+        font-family: "Montserrat";
+        line-height: 100px;
+        text-align: center;
+        background: #111C39;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    .blocked_contents{
+        color: rgb(0,0,0);
+        text-align: center;
+        font-size: 35px;
+    }
+    #Blocked_List_Content{
+        color: rgb(0,0,0);
+        text-align: center;
+        font-size: 35px;
+    }
+    .email_enter {
+        border-radius: 25px;
+        display: inline-block;
+        padding: 0; 
+        margin: 20px;
+        height: 80px;
+        width: 300px;
+        top: 50%;
+        text-align: center;
+        color: black
+    }
+    .textprompt{
+        text-align: center;
+    }
+
+    .generic_title {
+        height: 40px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: white;
+        margin: 0px;
+        text-align: center;
+    }
+    .generic_enter {
+        padding: 0; 
+        border-radius: 20px;
+        margin: 20px;
+        height: 40px;
+        width: 300px;
+        top: 50%;
+        text-align: center;
+        color: black
+    }
+
+    .Delete_Account {
+        display: block;
+        width: 80%;
+        border: none;
+        margin: 0 auto;
+        background-color: #FF6961;
+        color: white;
+        padding: 14px 28px;
+        border-radius: 25px;
+        font-size: 16px;
+        top: 40px;
+        text-align: center;
+        border: 1px solid var(--gold);
+      }
+    .Delete_Account:hover {
+        background-color: #d15650;
+        border: 1px solid var(--gold);
+    }
+    .Submit_Changes {
+        padding-bottom: 20px;
+        display: block;
+        width: 30%;
+        border: none;
+        margin: auto;
+        background-color: #87AEAB;
+        color: white;
+        padding: 14px 28px;
+        border-radius: 25px;
+        font-size: 16px;
+        text-align: center;
+        border: 1px solid var(--gold);
+    }
+    .Submit_Changes:hover {
+        background-color: #739491;
+        border: 1px solid var(--gold);
+    }
+    #Display_Name_Enter{
+        width: 100vw;
+        height: 15vh;
+        border: 20px solid white;
+        background-color: white;
+        width:max-content;
+        text-align: right;
+    }
+    
+
+
+
+    .backgroundrect {
+        position: absolute;
+        width: 215px;
+        height: 45px;
+        left: 175px;
+        top: 164px;
+        background: #D9E7C7;
+        border-radius: 55px;
+    }
+    #blocked_list{ 
+        justify-content: center;
+        margin:auto;
+        align-items: center;
+        text-align: center;
+        /* border-radius: 25px; */
+        font-family: "Montserrat", sans-serif;
+        color: var(--offwhite);
+        text-decoration: none;
+    }
+    .blocked-names-container{
+        border-radius: 25px;
+        margin:auto;
+        margin-top: 80px;
+        padding: 12px;
+        background: #87AEAB;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        width: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 649px) {
+
+    .fontset{
+        vertical-align: middle;
+        margin: auto;
+        padding: 20px;
+        font-family: "Montserrat";
+    }
+    .fontset_about_me{
+        vertical-align: middle;
+        border: 5px;
+        padding: 12px;
+        padding-bottom: 25px;
+        display:inline-flex;
+        font-family: "Montserrat";
+    }
+    textarea{
+        outline-offset: 3px;
+        height : 10em;
+        width: 15em;
+        vertical-align: left;
+    }
+
+    .rectangleone {
+        border-top-left-radius: 2vh;
+        border-top-right-radius: 2vh;
+        font-family: "Montserrat";
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        background: #111C39;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    .rectangletwo {
+        font-family: "Montserrat";
+        height: 45px;
+        background: #87AEAB;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .rectanglethree {
+        height: 45px;
+        background: #87AEAB;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    .rectanglefour {
+        font-family: "Montserrat";
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        background: #111C39;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+        /* Profile picture */
+        .image_adjust {
+            border-radius: 50%;
+            padding-top: 50px;
+            width:100%;
+            max-width:150px;
+            max-height: 150px;
+            min-width: 150px;
+            max-height: 150px;
+        }
+    .image_adjusttwo {
+        font-family: "Montserrat";
+        transform: scale(0.8);
+        padding: 0; 
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        right: 50%;
+        top: 970px;
+        bottom: 30%; 
+        z-index: 1;      
+    }
+
+    
+    .username_enter {
+        border-radius: 25px;
+
+        font-family: "Montserrat";
+        display: inline-block;
+        padding: 0; 
+        margin: 20px;
+        margin-right: 50px;
+        height: 80px;
+        width: 170px;
+        top: 50%;
+        text-align: center;
+        color: black
+    }
+    .aboutme_enter {
+        padding: 15px;
+        margin-left: 20px;
+        height: 80px;
+        width: 170px;
+        border-radius: 25px;
+        font-family: "Montserrat";
+        text-align: center;
+        color: black;
+    }
+    .phone_enter {
+        border-radius: 25px;
+
+        font-family: "Montserrat";
+        display: inline-block;
+        padding: 0; 
+        margin: 20px;
+        margin-right: 50px;
+        height: 80px;
+        width: 175px;
+        top: 50%;
+        text-align: center;
+        color: black
+    }
+    #Encompassing_Settings{
+        width: 60vw;
+        float: center;
+        margin: auto;
+        min-height: 100vh; 
+        justify-content: flex-start;
+        border-left: 0.1px solid var(--gold);
+        border-right: 0.1px solid var(--gold);
+        border-top-left-radius: 2vh;
+        border-top-right-radius: 2vh;
+    }
+    #Encompass-Username{
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+    }
+    #Encompass-Date{
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+
+        padding-bottom: 25px;
+        padding-right: 45px;
+    }
+    #Encompass-Phone{
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+        padding-bottom: 25px;
+        padding-left: 20px;
+    }
+    #Encompass-AboutMe{
+        
+        position: relative;
+        vertical-align: middle;
+        float: center;
+        margin: auto;
+        padding-bottom: 25px;
+        padding-right: 20px;
+
+    }
+    .label textarea{
+        outline-offset: 5px;
+        vertical-align: middle;
+        float: left;
+    }
+    .viewFollow-content {
+        background-color: var(--offwhite);
+        border-radius: 25px;
+        margin: 5% auto; /* 15% from the top and centered */
+        padding: 1px 10px 20px 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        height: 85%;
+    }
+    .blocked_Banner{
+        font-family: "Montserrat";
+        line-height: 100px;
+        text-align: center;
+        background: #111C39;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    .blocked_contents{
+        color: rgb(0,0,0);
+        text-align: center;
+        font-size: 10px;
+    }
+    #Blocked_List_Content{
+        color: rgb(0,0,0);
+        text-align: left;
+        font-size: 10px;
+    }
+    .email_enter {
+        border-radius: 25px;
+
+        font-family: "Montserrat";
+        display: inline-block;
+        padding: 0; 
+        margin: 20px;
+        margin-right: 50px;
+        height: 80px;
+        width: 175px;
+        top: 50%;
+        text-align: center;
+        color: black
+
+    }
+    .textprompt{
+        text-align: center;
+    }
+
+    .generic_title {
+        height: 40px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: white;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    .generic_enter {
+        padding: 0; 
+        border-radius: 20px;
+        margin: 20px;
+        height: 40px;
+        width: 300px;
+        top: 50%;
+        font-size: 10px;
+
+        text-align: center;
+        color: black
+    }
+
+    .Delete_Account {
+        display: block;
+        width: 80%;
+        border: none;
+        margin: 0 auto;
+        background-color: #FF6961;
+        color: white;
+        padding: 14px 28px;
+        border-radius: 25px;
+        top: 40px;
+        font-size: 10px;
+        text-align: center;
+      }
+      .Delete_Account:hover {
+        background-color: #d15650;
+    }
+      .Submit_Changes {
+        padding-bottom: 20px;
+        display: block;
+        width: 35%;
+        border: none;
+        margin: 0 auto;
+        background-color: #87AEAB;
+        color: white;
+        padding: 14px;
+        border-radius: 25px;
+        font-size: 8px;
+        text-align: center;
+      }
+      .Submit_Changes:hover {
+        background-color: #739491;
+    }
+    #Display_Name_Enter{
+        width: 100vw;
+        height: 15vh;
+        border: 20px solid white;
+        background-color: white;
+        width:max-content;
+        text-align: right;
+    }
+    
+    .backgroundrect {
+        position: absolute;
+        width: 215px;
+        height: 45px;
+        left: 175px;
+        top: 164px;
+        background: #D9E7C7;
+        border-radius: 55px;
+    }
+    #blocked_list{ 
+        justify-content: center;
+        margin:auto;
+        align-items: center;
+        text-align: center;
+        /* border-radius: 25px; */
+        font-family: "Montserrat", sans-serif;
+        color: var(--offwhite);
+        text-decoration: none;
+    }
+    .blocked-names-container{
+        border-radius: 25px;
+        margin:auto;
+        margin-top: 80px;
+        padding: 12px;
+        background: #87AEAB;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        width: 40%;
+    }
+}

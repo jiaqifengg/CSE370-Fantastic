@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/*Desktop CSS*/
+@media only screen and (min-width: 1025px){
+    .crave_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .crave_logo h3{
+        padding-left: 30px;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /*Below is CSS for login form*/
+    .loginform {
+        position: relative;
+        margin-left: 10%;
+        background-color: #87AEAB;
+        width: 25vw;
+        padding:35px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    label { 
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        color: black;
+        font-weight: bolder;
+    }
+    .loginform input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 25vw;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        
+    }
+    ul li {
+        font-family: 'Montserrat', sans-serif;
+        margin: 5% auto;
+        font-weight: bold;
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    #loginButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 9vw;
+        background-color: #EAEAEA;
+    }
+    #registerButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 9vw;
+        background-color: #EAEAEA;
+    }
+
+    /*Button below directs user to request password reset token form*/
+    #reqButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 13vw;
+        background-color: #EAEAEA;
+    }
+    /* Below are CSS for the pwdChangeForm (actually changing the password)*/
+    .pwdChangeForm {
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 25vw;
+        padding:50px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    .pwdChangeForm input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 20vw;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    #pwdField {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        width: 100vw;
+    }
+    .pwdChangeForm h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .pwdChangeForm label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .pwdChangeForm p {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: small;
+    }
+    #resetPWDButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 13vw;
+        background-color: #EAEAEA;
+    }
+    /*CSS for request pwd change form (request to send a password reset token to user's email)*/
+    .requestForm {
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 25vw;
+        padding:50px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    .requestForm input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 20vw;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    .requestForm h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .requestForm label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    #reqResetButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 13vw;
+        background-color: #EAEAEA;
+    }   
+}
+
+/*Tablet CSS*/
+@media only screen and (max-width: 1025px){
+    .crave_logo {
+        display: none;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /*CSS for login page*/
+    .loginform {
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 50%;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    label { 
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        color: black;
+        font-weight: bolder;
+    }
+    .loginform input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 50vw;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    ul li {
+        font-family: 'Montserrat', sans-serif;
+        margin: 5% auto;
+        font-weight: bold;
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    #loginButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 9vw;
+        background-color: #EAEAEA;
+    }
+    #registerButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 13vw;
+        background-color: #EAEAEA;
+    }
+     /*Button below directs user to request password reset token form*/
+     #reqButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 20vw;
+        background-color: #EAEAEA;
+    }
+    /* Below are CSS for the pwdChangeForm (actually changing the password)*/
+    .pwdChangeForm {
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 50vw;
+        padding:50px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    .pwdChangeForm input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 30vw;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    #pwdField {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        width: 100vw;
+    }
+    .pwdChangeForm h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .pwdChangeForm label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .pwdChangeForm p {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: small;
+    }
+    #resetPWDButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 13vw;
+        background-color: #EAEAEA;
+    }
+    /*CSS for request pwd change form (request to send a password reset token to user's email)*/
+    .requestForm {
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 50vw;
+        padding:50px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    .requestForm input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 50vw;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    .requestForm h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .requestForm label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    #reqResetButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 20vw;
+        background-color: #EAEAEA;
+    }
+}
+
+/*Phone CSS*/
+@media only screen and (max-width: 600px){
+    #phone_title {
+        display: none;
+    }
+    .crave_logo {
+        display: none;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /*CSS for login page*/
+    .loginform {
+        align-items: center;
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 50%;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    .label { 
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: bolder;
+    }
+    .loginform input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 100%;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    ul li {
+        font-family: 'Montserrat', sans-serif;
+        margin: 5% auto;
+        font-weight: bold;
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    #loginButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 100%;
+        background-color: #EAEAEA;
+        margin-top: 0;
+
+    }
+    #registerButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 100%;
+        background-color: #EAEAEA;
+        margin-top: 0;
+    }
+     /*Button below directs user to request password reset token form*/
+     #reqButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 100%;
+        background-color: #EAEAEA;
+        margin-top: 0;
+    }
+    /* Below are CSS for the pwdChangeForm (actually changing the password)*/
+    .pwdChangeForm {
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 55vw;
+        padding:50px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    .pwdChangeForm input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 100%;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    #pwdField {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        width: 100vw;
+    }
+    .pwdChangeForm h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .pwdChangeForm label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .pwdChangeForm p {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: small;
+    }
+    #resetPWDButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 120%;
+        background-color: #EAEAEA;
+        margin-top: 0;
+        margin: auto;
+    }
+    /*CSS for request pwd change form (request to send a password reset token to user's email)*/
+    .requestForm {
+        position: relative;
+        margin: auto;
+        background-color: #87AEAB;
+        width: 50vw;
+        padding:50px;
+        border-radius: 10px;
+        box-shadow: -3px 0px 5px 5px grey;
+    }
+    .requestForm input {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 105%;
+        background-color: #EAEAEA;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin: auto;
+    }
+    .requestForm h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .requestForm label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+    #reqResetButton {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        height: 4vh; 
+        width: 105%;
+        background-color: #EAEAEA;
+        margin: auto;
+    }
+}

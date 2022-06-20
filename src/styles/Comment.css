@@ -1,0 +1,44 @@
+:root {
+    --light-green: #B5C99A;
+    --offwhite: #F5F3EC;
+}
+
+.textarea {
+    display: block;
+    resize: none;
+    min-height: 1em;
+    line-height: 1.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    /* margin: 10px; */
+    background-color: lightgray;
+    /* width: calc(100% - 12px - 60px); */
+    width: calc(100% - 12px);
+    /* overflow: hidden; */
+    text-align: left;
+}
+
+#comment-textarea:empty::before {
+    color: gray;
+    content: "Write a comment...";
+    padding: 0px;
+    margin: 0px;
+}
+
+#suggestion-textarea:empty::before {
+    color: gray;
+    content: "Write a suggestion...";
+    padding: 0px;
+    margin: 0px;
+}
+
+.comment-form-form {
+    background-color: var(--offwhite);
+    padding: 10px;
+    /* width: calc(100% - 10px); */
+    margin: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
